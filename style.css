@@ -1,0 +1,226 @@
+/* #==== Google font : Poppins ======
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+
+#======= Gradient's =========
+For background -- linear-gradient(to right, #BDB1C5, #DDD7D0)
+For Button     -- linear-gradient(to right, #525252, #101010)
+
+#==== color =======
+text color      : #7B787C
+body background : #FAF8F4 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Poppins',sans-serif;
+    background: #FAF8F4;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+ 
+}
+.header{
+    width: 90%;
+    margin: auto;
+    
+}
+ .logo img{
+    width: 6%;
+    
+}
+.navlist{
+    display: flex;
+    width: 120%;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 5%;
+    margin-left: 4%;   
+    margin-inline: 4px;
+    font-size: 12px;
+    
+ 
+}
+.navlist li{
+    margin:2px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.navlinks{
+    display: flex;
+    color: #7B787C;
+   
+}
+.heroimg img{
+    width: 100%;
+    padding: 0px;
+ 
+}
+.heroimg{
+         flex-basis:10%;
+}
+.headercontent{
+    display:flex;
+    background: linear-gradient(to right, #BDB1C5, #DDD7D0);
+    min-height: 6
+    0vh;
+    border-radius: 5px;
+    padding: 1px;  
+    align-items: center;
+    justify-content: center;
+}
+.introtext{
+    flex-basis: 95%;
+    padding: 25px;
+}
+h3{
+    color: #512b5e;
+}
+.btns{
+    margin-top: 30px;
+}
+.primary{
+    background:linear-gradient(to right, #525252, #101010);
+    color: #FAF8F4;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px; 
+}
+/* .secondary{
+    padding:12px 20px;
+    border-radius:10px;
+    border:1px solid black;
+    color: #101010;
+    background:transparent; */
+.dnld{
+    background:linear-gradient(to right, #525252, #101010);
+    color: #FAF8F4;
+    padding: 8px 11px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    display: inline-block;
+    text-decoration: none;
+   
+
+}
+.home{
+    color: #7a1b97;
+    text-decoration: none;
+    background-color: #9c9c9c;
+    padding: 1px;
+    border-radius: 3px;
+    margin-left: 1px;
+}
+.home:hover{
+    color: #131212;
+    text-decoration: dotted;
+}
+.navbtns{
+    display: flex;
+    color: rgb(15, 141, 141);
+    text-shadow: #464545 1px;
+    text-decoration: none;
+    margin-inline: 2px;
+    margin: 1px;  
+    text-align:left;
+    border-radius: 4px;
+    
+}
+
+.navbtns:hover{
+   color:  #1d1c1c;
+   background-color: #BDB1C5;
+   transition-delay: 0.3ms;
+   text-transform: inherit;
+}
+label.logo1{
+   
+    margin: 7px 4px;
+    width: 5%;
+    margin-inline: 2px;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: justify;
+    display: inline-block;
+}
+ #li{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    color: #1d1c1c;
+    margin-bottom: 5px;
+    align-content: space-between;
+    justify-content: center;
+    
+  
+
+}
+#select{
+    color: #1d1c1c;
+    text-align: center;
+    margin: 1px;
+    
+    
+  
+}
+#hyperlink{
+    color: #101010;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#a{
+    color: #101010;
+    text-align: center;
+    text-decoration: none;
+
+    margin-top: 1%;
+   
+    align-content: space-between;
+    
+
+}
+#a:hover{
+    color: #3f2049;
+    background-color: #c0baba;
+}
+#heading{
+    background-color: #b6b1b1;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.subject{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sub{
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+s{
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 30px;
+}
+.terms{
+    text-align: center;
+    margin: 25px;
+    font-size: small;
+}
+.copyright{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3px;
+}
