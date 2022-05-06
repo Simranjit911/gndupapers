@@ -1,2 +1,2 @@
 # gndupapers
-First college project
+This Is my first college project.
